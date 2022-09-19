@@ -6,7 +6,7 @@ class Toy
 public:
 
     Toy(std::string inName) : name(inName) {};
-    Toy() : Toy("None") {};
+    Toy() : Toy("SameToy") {};
 
 private:
     std::string name;
